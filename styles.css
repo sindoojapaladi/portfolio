@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap')
+:root{
+  --primary-color:#524f4f;
+  --secondary-color:#f9a826;
+  --grey:#777575;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  padding : 0.5rem 4rem;
+  margin: 0px;
+}
+
+.container {
+  padding:1rem 0rem;
+}
+.container-center { 
+  max-width: 600px; 
+  margin: auto;
+}
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start:0px;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+.navigation {
+  background-color: rgb(82, 79, 79); 
+  padding: 1rem;
+  border-radius:1rem 1rem 0rem 0rem ;
+}
+.navigation .nav-brand {
+  font-weight: bold;
+  color: white;
+
+}
+.navigation .nav-pills {
+  text-align: right;
+  
+}
+.navigation .link {
+  color: white;
+}
+.navigation .link-active {
+  font-weight: bold;
+}
+
+.link {
+  box-sizing: border-box;
+  text-decoration:none;
+  padding: 8px 16px;
+}
+
+.developer .developer-img {
+  max-width: 80%;
+  padding-top: 2rem;
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+
+.developer .developer-title {
+  text-align: center;
+  color: #f9a826;
+}
+
+.developer .developer-title .name {
+  color: rgb(119, 117, 117);
+}
+.section {
+  padding:1rem; 
+  text-align:center ;
+
+}
+
+
+.odd {
+  border-radius:1rem;
+  background-color: rgb(233, 232, 232);
+  margin: 1.5rem 0px;
+  padding:1rem 0rem;
+}
+
+.link-primary {
+  background-color: #f9a826;
+  color: black;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+.link-secondary {
+  border: 1px solid #f9a826;
+  border-radius: 1rem;
+  color:#f9a826;
+
+}
+ 
+.footer {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  text-align: center;
+  border-radius: 0rem 0rem 1rem 1rem;
+  padding: 1rem 0rem;
+}
+.footer .footer-header {
+  
+  font-weight: bold;
+  font-size: large;
+  
+}
+.footer .link {
+  color: white;
+}
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+
+
+
