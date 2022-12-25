@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap')
-:root{
-  --primary-color:#524f4f;
-  --secondary-color:#f9a826;
-  --grey:#777575;
+ :root{
+  --primary-color: #524f4f;
+  --secondary-color : #f9a826;
+  --grey: #777575;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   padding : 0.5rem 4rem;
@@ -14,7 +15,7 @@ body {
   padding:1rem 0rem;
 }
 .container-center { 
-  max-width: 600px; 
+  max-width: 900px; 
   margin: auto;
 }
 .list-non-bullet {
@@ -26,7 +27,7 @@ body {
   padding: 0rem 0.5rem;
 }
 .navigation {
-  background-color: rgb(82, 79, 79); 
+  background-color: #524f4f; 
   padding: 1rem;
   border-radius:1rem 1rem 0rem 0rem ;
 }
@@ -59,10 +60,13 @@ body {
   display: block;
   margin: auto;
 }
-
+.developer {
+  padding-top: 0.5rem;
+}
 .developer .developer-title {
   text-align: center;
   color: #f9a826;
+
 }
 
 .developer .developer-title .name {
@@ -71,13 +75,13 @@ body {
 .section {
   padding:1rem; 
   text-align:center ;
-
+  margin: 0rem 2rem;
 }
 
 
 .odd {
   border-radius:1rem;
-  background-color: rgb(233, 232, 232);
+  background-color: #e9e8e8;
   margin: 1.5rem 0px;
   padding:1rem 0rem;
 }
@@ -87,16 +91,17 @@ body {
   color: black;
   border-radius: 1rem;
   border: 1px solid black;
+  
 }
 .link-secondary {
   border: 1px solid #f9a826;
   border-radius: 1rem;
   color:#f9a826;
-
+  
 }
  
 .footer {
-  background-color: rgb(34, 34, 34);
+  background-color: #524f4f;
   color: white;
   text-align: center;
   border-radius: 0rem 0rem 1rem 1rem;
@@ -111,9 +116,25 @@ body {
 .footer .link {
   color: white;
 }
-.footer ul {
-  padding-inline-start: 0px;
+.show-blog {
+ padding-bottom: 2rem;
 }
+.showcase-list {
+  text-align:center;
+  padding-bottom: 2rem;
+}
+.showcase-list p{
+  padding-bottom: 0.5rem;
+}
+
+  
+
+
+
+  
+  
+  
+
 
 
 
