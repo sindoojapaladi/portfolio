@@ -51,6 +51,7 @@ body {
   box-sizing: border-box;
   text-decoration:none;
   padding: 8px 16px;
+  margin:0.5rem;
 }
 
 .developer .developer-img {
@@ -75,7 +76,7 @@ body {
 .section {
   padding:1rem; 
   text-align:center ;
-  margin: 0rem 2rem;
+  margin: 1rem;
 }
 
 
