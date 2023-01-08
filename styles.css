@@ -50,8 +50,8 @@ body {
 .link {
   box-sizing: border-box;
   text-decoration:none;
-  padding: 8px 16px;
-  margin:0.5rem;
+  padding: 2px;
+  margin:auto;
 }
 
 .developer .developer-img {
