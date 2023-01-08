@@ -38,6 +38,7 @@ body {
 }
 .navigation .nav-pills {
   text-align: right;
+  padding:0%
   
 }
 .navigation .link {
@@ -50,8 +51,8 @@ body {
 .link {
   box-sizing: border-box;
   text-decoration:none;
-  padding: 2px;
-  margin:auto;
+  padding: 0.5rem 1rem;
+  margin:0.5rem;
 }
 
 .developer .developer-img {
